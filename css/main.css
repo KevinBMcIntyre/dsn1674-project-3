@@ -61,3 +61,22 @@ nav ul{
 	 font-size: 3em;
   text-shadow: 3px 4px 0px black;
 }
+h3 {
+  color: #009444;
+  font-size: 3em;
+  margin: 1em 0 -11px 1em;
+  padding-top: 1em;
+}
+.section {
+	  background-color: #FFDE17;
+  border-bottom: 16px solid #ED1C24;
+  margin-bottom: -19px;
+}
+.about img{
+	  float: left;
+  width: 50%;
+}
+.about p {
+  margin-top: 7%;
+  margin-left: 52%;
+}
