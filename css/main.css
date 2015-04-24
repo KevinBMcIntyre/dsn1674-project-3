@@ -5,17 +5,24 @@ html{
 *, *::before, *::after{
 	box-sizing: inherit;
 }
+body{
+	margin: 0;
+}
 header{
 	text-align: center;
 	background-color: #FFDE17;
+	padding-bottom: 4.5em;
 }
 h1{
-
+	margin: 0;
+	font-size: 5.5rem;
+	color: #ED1C24;
+  -webkit-text-stroke: 2px white;
 }
 nav li{
   float: left;
   display: inline-block;
-  width: 33%;
+  width: 32%;
   padding: .5em;
   text-align: center;
   color: white;
@@ -23,12 +30,13 @@ nav li{
 }
 nav ol{
 	margin: 0;
+	padding: 0;
 }
 nav li a {
 	background-color: #009444;
 	text-decoration: none;
 	color: white;
-	padding: .4em .7em;
+	padding: .3em 1.7em;
 	border: 3px solid #EC008C;
 }
 nav ul{
