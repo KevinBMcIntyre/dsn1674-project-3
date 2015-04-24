@@ -77,6 +77,14 @@ h3 {
   width: 50%;
   margin-right: 16px;
 }
-.about p {
+.about p, .location {
   margin-top: 7%;
+}
+table {
+	margin-top: 2em;
+	width: 100%;
+}
+.map {
+	  width: 99%;
+}
 }
