@@ -1,0 +1,39 @@
+html{
+	box-sizing: border-box;
+	font-family: 'Oxygen', sans-serif;
+}
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+header{
+	text-align: center;
+	background-color: #FFDE17;
+}
+h1{
+
+}
+nav li{
+  float: left;
+  display: inline-block;
+  width: 33%;
+  padding: .5em;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+nav ol{
+	margin: 0;
+}
+nav li a {
+	background-color: #009444;
+	text-decoration: none;
+	color: white;
+	padding: .4em .7em;
+	border: 3px solid #EC008C;
+}
+nav ul{
+	overflow: hidden;
+	margin: auto;
+	width: 100%;
+	padding: 0;
+}
